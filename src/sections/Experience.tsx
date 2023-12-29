@@ -23,7 +23,7 @@ function Experience() {
         "Wrote modern, performant, maintainable code for a diverse array of client and internal projects",
         "Throughout my work, I've utilized various MERN stack technologies, including React, Next.js, TypeScript, Node.js, among others.",
         "Integrated various backend frameworks like Django , flask.",
-        "I collaborated with multifunctional teams to covert the client's idea into a working applcation",
+        "I collaborated with multifunctional teams to convert the client's idea into a working applcation",
       ],
     },
     {
@@ -34,8 +34,9 @@ function Experience() {
       end: "March 2023",
       shortDescription: [
         "Developed a second hand book selling website",
-        "Designed and implemented the frontend on React.js with Redux",
-        "Learnt communicating with teams and team mates, distributing tasks to achieve the goal in a shorter period.",
+        "Designed and implemented the frontend on React.js",
+        "Used Redux toolkit for state management and data persistence",
+        "Learned communicating with teams and team mates, distributing tasks to achieve the goal in a shorter period.",
       ],
     },
   ];
