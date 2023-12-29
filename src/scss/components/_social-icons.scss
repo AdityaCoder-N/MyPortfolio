@@ -4,7 +4,7 @@
   left: 4rem;
   &-list {
     list-style-type: none;
-    display: flex;
+    display: flex!important;
     flex-direction: column;
     gap: 0.5rem;
     &-item {
