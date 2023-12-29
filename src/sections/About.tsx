@@ -28,7 +28,7 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Hey ! I&apos;m Aditya, I'm someone who is dedicated to constant improvement, always striving to be better than I was yesterday. My journey as a CS student started in my first year of college , From learning the C code to check whether a number is prime or not.
+            Hey ! I am Aditya, I&apos;m someone who is dedicated to constant improvement, always striving to be better than I was yesterday. My journey as a CS student started in my first year of college , From learning the C code to check whether a number is prime or not.
           </p>
           <p className="about-grid-info-text">
             Fast-forward to today, I have learnt a lot (not only about prime numbers ofcourse). From C++, DSA, to web-development, to machine learning / deep learning, some dev-ops. I have spent my time on all the technologies that amused me. Excelling particularly at problem solving and web development.
