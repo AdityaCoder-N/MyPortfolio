@@ -4,14 +4,35 @@ import React from "react";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 import { motion } from "framer-motion";
 
+import discord from '../../public/discord.png'
 import project1 from '../../public/project1.png'
 import project2 from '../../public/project2.png'
 import project3 from '../../public/project3.png'
 import project4 from '../../public/project4.png'
 import project5 from '../../public/project5.png'
+import research from '../../public/research.png'
+import hackathon from '../../public/hackathon.png'
 
 function Projects() {
   const projectsData = [
+    {
+      image: discord,
+      projectName: "ChatMates",
+      projectLink: "https://discord-it-project.vercel.app/",
+      projectDescription:
+        "ChatMates is a powerful chat application I developed, featuring both one-on-one and group chat capabilities with real-time messaging. I have used MySQL and Prisma for efficient data management and integrated Zod for data validation and Clerk for secure authentication. The site also supports live video and voice calls through LiveKit, and users can upload and share media files using UploadThing. The modern UI is built with Tailwind CSS, making the user experience smooth and visually appealing.",
+      projectTech: [
+        "Next.js",
+        "Prisma",
+        "MySql",
+        "Typescript",
+        "Sockets",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/AdityaCoder-N/discord-clone",
+        externalLink: "https://discord-it-project.vercel.app/",
+      },
+    },
     {
       image: project1,
       projectName: "RideShare",
@@ -84,6 +105,24 @@ function Projects() {
       },
     },
     {
+      image: research,
+      projectName: "Automated API Documentation Generator using GenAI",
+      projectLink: "https://drive.google.com/file/d/1FHraZntpOFi78prSzyZw19AT8M3CdBFN/view",
+      projectDescription:
+        "My team and I published a research paper on generating API documentation using Generative AI, where we fine-tuned a pre-trained Llama-2-7B-bf16-sharded model. To make the process user-friendly, We developed a website using Streamlit, providing an intuitive UI for seamless API documentation creation. This project combines cutting-edge AI with practical application to simplify and automate API documentation tasks.",
+      projectTech: [
+        "Generative AI",
+        "Python",
+        "llm models",
+        "Transformers",
+        "Autotrain"
+      ],
+      projectExternalLinks: {
+        github: "https://drive.google.com/file/d/1FHraZntpOFi78prSzyZw19AT8M3CdBFN/view",
+        externalLink: "https://ieeexplore.ieee.org/document/10482119",
+      },
+    },
+    {
       image: project5,
       projectName: "Lung Disease Prediction application",
       projectLink: "https://lungdiseaseprediction.onrender.com/",
@@ -99,6 +138,22 @@ function Projects() {
       projectExternalLinks: {
         github: "https://github.com/AdityaCoder-N/LungsDiseasePredictionSystem",
         externalLink: "https://lungdiseaseprediction.onrender.com/",
+      },
+    },
+    {
+      image: hackathon,
+      projectName: "Hackathon Project - Fake Points Generator",
+      projectLink: "https://fake-point-generation.streamlit.app/",
+      projectDescription:
+        "My team and I won Most Optimal Solution Prize at Explore AI Hacathon 2.0 , hosted by Yamaha Group. We used interpolation techniques to create fake points in a defected Cloud Point data which is used by LIDAR Technology.",
+      projectTech: [
+        "Python",
+        "Numpy",
+        "Interpolation",
+      ],
+      projectExternalLinks: {
+        github: "https://www.linkedin.com/posts/aditya-negi-9a72b8208_exploreai2-hackathon-yamahamotorssolution-activity-7058720876862554112-QgQd?utm_source=share&utm_medium=member_desktop",
+        externalLink: "https://fake-point-generation.streamlit.app/",
       },
     },
   ];
