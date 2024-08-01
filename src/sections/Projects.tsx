@@ -12,6 +12,7 @@ import project4 from '../../public/project4.png'
 import project5 from '../../public/project5.png'
 import research from '../../public/research.png'
 import hackathon from '../../public/hackathon.png'
+import anonysend from '../../public/anonysend.png'
 
 function Projects() {
   const projectsData = [
@@ -31,6 +32,24 @@ function Projects() {
       projectExternalLinks: {
         github: "https://github.com/AdityaCoder-N/discord-clone",
         externalLink: "https://discord-it-project.vercel.app/",
+      },
+    },
+    {
+      image: anonysend,
+      projectName: "Anonysend",
+      projectLink: "https://anonysend.vercel.app/",
+      projectDescription:
+        "This is a web application using which people can send you messages anonymously, once you share your profile url with them. It also makes use of Gemini AI to suggest messages and I have used good coding principles including concepts like debouncing and throttling to increase performance. I used NextAuth for authentication, Zod for schemas.",
+      projectTech: [
+        "Next.js",
+        "MongoDB",
+        "Typescript",
+        "NextAuth",
+        "Zod",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/AdityaCoder-N/anonysend",
+        externalLink: "https://anonysend.vercel.app/",
       },
     },
     {
