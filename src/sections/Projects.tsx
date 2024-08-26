@@ -13,9 +13,30 @@ import project5 from '../../public/project5.png'
 import research from '../../public/research.png'
 import hackathon from '../../public/hackathon.png'
 import anonysend from '../../public/anonysend.png'
+import keyboardWarriors from '../../public/keyboard-warriors.png'
+import shopKart from '../../public/shopKart.png'
+import sarvapeedam from '../../public/sarvapeedam.png'
 
 function Projects() {
   const projectsData = [
+    {
+      image: keyboardWarriors,
+      projectName: "Keyboard Warriors",
+      projectLink: "https://discord-it-project.vercel.app/",
+      projectDescription:
+        "It is a fun, retro-themed, Multiplayer typing game. I created this using Next.js and typescript along with authentication from next-auth and google auth provider. A challenging task was the synchronization of game states among all the clients in the room. It was fun writing the server side and client side logic to handle points, powerups and winner conditions.",
+      projectTech: [
+        "Next.js",
+        "Typescript",
+        "Socket.io",
+        "Next-auth",
+        "Zod"
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/AdityaCoder-N/keyboard-warriors",
+        externalLink: "https://keyboard-warriors.vercel.app/",
+      },
+    },
     {
       image: discord,
       projectName: "ChatMates",
@@ -72,6 +93,24 @@ function Projects() {
       },
     },
     {
+      image: shopKart,
+      projectName: "ShopKart",
+      projectLink: "https://shop-kart-smoky.vercel.app/",
+      projectDescription:
+        "This was an Intern assignment, Its an ecommerce platform (without the checkout option). User can store items to cart. I used the best coding practices to make this optimal and scalable along with the latest web techs like Zod for data validation and Zustand as a state management tool.",
+      projectTech: [
+        "Next.js",
+        "Typescript",
+        "next-auth",
+        "Zustand",
+        "Zod",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/AdityaCoder-N/shop-kart",
+        externalLink: "https://shop-kart-smoky.vercel.app/",
+      },
+    },
+    {
       image: project2,
       projectName: "Hotello",
       projectLink: "https://hotello-service.netlify.app/",
@@ -103,6 +142,22 @@ function Projects() {
       projectExternalLinks: {
         github: "",
         externalLink: "https://www.invictusglobaltech.com/",
+      },
+    },
+    {
+      image: sarvapeedam,
+      projectName: "Sarva Siddhi Peedam",
+      projectLink: "https://sarvasiddhipeedam.com/",
+      projectDescription:
+        "Made this amazing client website during my internship, worked with a great UI designer. Website is made in next.js, typescript and tailwind css. Connected the contact page form to email using resend.",
+      projectTech: [
+        "Next.js",
+        "Tailwind",
+        "Resend API"
+      ],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "https://sarvasiddhipeedam.com/",
       },
     },
     {
